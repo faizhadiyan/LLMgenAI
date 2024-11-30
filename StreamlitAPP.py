@@ -10,9 +10,14 @@ from langchain_community.callbacks.manager import get_openai_callback
 from src.mcqgenerator.MCQGenerator import generate_evaluate_chain
 from src.mcqgenerator.logger import logging
 
-#loading json file
+# Get the current directory
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
-with open('/Users/faizhadiyan/Desktop/ProjectExternal/AI/Exercise/Day 6 - Project AI Gen/Response.json', 'r') as file:
+# Use os.path.join for cross-platform compatibility
+json_path = os.path.join(current_dir, 'Response.json')
+
+# Open the file using the relative path
+with open(json_path, 'r') as file:
     RESPONSE_JSON = json.load(file)
 
 #creating a title for the app
