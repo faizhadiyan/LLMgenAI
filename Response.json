@@ -1,32 +1,20 @@
 {
-  "1": {
-    "mcq": "multiple choice question",
-    "options": {
-      "a": "choice here",
-      "b": "choice here",
-      "c": "choice here",
-      "d": "choice here"
-    },
-    "correct": "correct answer"
+  "channels": [
+    {
+      "name": "channel name",
+      "strategy": "strategy description",
+      "budget_percentage": "number",
+      "expected_roi": "ROI description"
+    }
+  ],
+  "content_strategy": {
+    "key_themes": [],
+    "content_types": [],
+    "posting_frequency": ""
   },
-  "2": {
-    "mcq": "multiple choice question",
-    "options": {
-      "a": "choice here",
-      "b": "choice here",
-      "c": "choice here",
-      "d": "choice here"
-    },
-    "correct": "correct answer"
-  },
-  "3": {
-    "mcq": "multiple choice question",
-    "options": {
-      "a": "choice here",
-      "b": "choice here",
-      "c": "choice here",
-      "d": "choice here"
-    },
-    "correct": "correct answer"
+  "timeline": {
+    "month1": "activities",
+    "month2": "activities",
+    "month3": "activities"
   }
 }

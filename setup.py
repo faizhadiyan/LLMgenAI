@@ -3,7 +3,7 @@
 from setuptools import find_packages,setup
 
 setup(
-    name='mcqgenerator',
+    name='marketing_assistant',
     version='0.0.1',
     author='faiz hadiyan',
     author_email='faizhadiyanfirza@gmail.com',
@@ -14,7 +14,9 @@ setup(
         "langchain-openai",
         "streamlit",
         "python-dotenv",
-        "PyPDF2"
+        "PyPDF2",
+        "pandas",
+        "numpy"
     ],
     packages=find_packages()
 )

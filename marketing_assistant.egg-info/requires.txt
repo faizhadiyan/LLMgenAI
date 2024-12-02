@@ -7,6 +7,3 @@ python-dotenv
 PyPDF2
 pandas
 numpy
-
-
--e .
